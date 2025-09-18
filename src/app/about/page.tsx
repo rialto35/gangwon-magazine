@@ -44,7 +44,7 @@ export default function About() {
               
               <p>
                 모든 분들이 진심으로 일하고 계시지만,
-                <span className="font-semibold text-gray-800">'어떻게 하면 더 많은 분들이 우리를 알 수 있을까'</span>
+                <span className="font-semibold text-gray-800">&apos;어떻게 하면 더 많은 분들이 우리를 알 수 있을까&apos;</span>
                 고민하는 모습을 자주 봤습니다.
               </p>
               
@@ -56,9 +56,9 @@ export default function About() {
               
               <p>
                 그때 깨달았습니다.
-                <span className="font-semibold text-gold">'내가 48년 살아온 이 지역 네트워크와 
+                <span className="font-semibold text-gold">&apos;내가 48년 살아온 이 지역 네트워크와 
                 디지털 기술을 결합하면, 
-                우리 동네 모든 사업자분들께 도움이 될 수 있겠구나'</span>
+                우리 동네 모든 사업자분들께 도움이 될 수 있겠구나&apos;</span>
               </p>
               
               <p>

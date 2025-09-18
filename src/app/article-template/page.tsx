@@ -94,8 +94,8 @@ export default function ArticleTemplate() {
 
                   <blockquote className="border-l-4 border-gold pl-6 py-4 bg-gold/5 my-8">
                     <p className="text-lg text-gray-700 italic leading-relaxed">
-                      "지속가능한 관광은 단순히 자연을 보호하는 것이 아니라, 
-                      미래 세대가 현재와 같은 아름다운 자연을 경험할 수 있도록 하는 것입니다."
+                      &ldquo;지속가능한 관광은 단순히 자연을 보호하는 것이 아니라, 
+                      미래 세대가 현재와 같은 아름다운 자연을 경험할 수 있도록 하는 것입니다.&rdquo;
                     </p>
                     <cite className="text-sm text-gray-600 mt-2 block">- 강원도 관광청장</cite>
                   </blockquote>
@@ -192,8 +192,8 @@ export default function ArticleTemplate() {
                     인용
                   </h3>
                   <blockquote className="text-sm text-gray-700 italic leading-relaxed">
-                    "지속가능한 관광은 단순히 자연을 보호하는 것이 아니라, 
-                    미래 세대가 현재와 같은 아름다운 자연을 경험할 수 있도록 하는 것입니다."
+                    &ldquo;지속가능한 관광은 단순히 자연을 보호하는 것이 아니라, 
+                    미래 세대가 현재와 같은 아름다운 자연을 경험할 수 있도록 하는 것입니다.&rdquo;
                   </blockquote>
                   <cite className="text-xs text-gray-500 mt-3 block">- 강원도 관광청장</cite>
                 </div>
