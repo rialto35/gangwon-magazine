@@ -325,7 +325,8 @@ export default function BusinessPage() {
           </div>
           
           <button 
-            className="px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 flex items-center gap-2 mx-auto"
+            onClick={() => window.location.href = '/contact'}
+            className="px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 flex items-center gap-2 mx-auto hover:shadow-lg"
             style={{ backgroundColor: '#d5ae5d', color: '#000000' }}
           >
             강원도 마케팅 상담 신청
