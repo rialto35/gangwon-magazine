@@ -1,0 +1,11 @@
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mountain peaks -->
+  <path d="M20 25 L35 15 L50 20 L65 10 L80 15 L95 8 L110 12 L125 5 L140 10 L155 3 L170 8 L180 5 L185 10 L190 8 L195 12 L200 10 L200 25 Z" fill="#2F5D5A"/>
+  
+  <!-- GANGWON text -->
+  <text x="20" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2F5D5A">GANG</text>
+  <text x="100" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2D3748">WON</text>
+  
+  <!-- MAGAZINE text -->
+  <text x="20" y="65" font-family="serif" font-size="14" font-weight="normal" letter-spacing="2" fill="#2D3748">MAGAZINE</text>
+</svg>
