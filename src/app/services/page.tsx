@@ -206,7 +206,7 @@ export default function Services() {
   return (
     <div className="min-h-screen bg-white pt-20">
       {/* 헤더 섹션 */}
-      <div className="max-w-7xl mx-auto px-4 py-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center mb-16">
           <h1 className="text-5xl font-serif font-bold mb-6" style={{ color: '#d5ae5d' }}>
             강원도 전업종 마케팅 전문
@@ -226,7 +226,7 @@ export default function Services() {
           <h2 className="text-3xl font-serif font-bold text-center mb-8" style={{ color: '#d5ae5d' }}>
             업종별 맞춤 서비스
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
             {serviceCategories.map((category, index) => (
               <div 
                 key={index} 
@@ -288,7 +288,7 @@ export default function Services() {
               </div>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
               {serviceCategories[currentCategory].services.map((service, index) => (
                 <div key={index} className="bg-gray-50 rounded-lg p-4">
                   <h4 className="font-bold text-lg text-gray-800 mb-2">{service.name}</h4>
@@ -304,7 +304,7 @@ export default function Services() {
           <h2 className="text-3xl font-serif font-bold text-center mb-8" style={{ color: '#d5ae5d' }}>
             강원도 특화 차별화 포인트
           </h2>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
             {gangwonSpecialties.map((specialty, index) => (
               <div key={index} className="text-center bg-white rounded-lg p-6 shadow-lg border border-gold/20">
                 <div className="w-16 h-16 bg-gold/10 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -332,7 +332,7 @@ export default function Services() {
           <h2 className="text-3xl font-serif font-bold text-center mb-8" style={{ color: '#d5ae5d' }}>
             서비스 패키지
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
             {servicePackages.map((pkg, index) => (
               <div 
                 key={index} 
