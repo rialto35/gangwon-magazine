@@ -204,9 +204,9 @@ export default function Services() {
   };
 
   return (
-    <div className="min-h-screen bg-white overflow-x-hidden">
+    <div className="min-h-screen bg-white">
       {/* 헤더 섹션 */}
-      <div className="w-full px-4 sm:px-6 lg:px-8 py-16 mt-20">
+      <div className="w-full px-4 sm:px-6 lg:px-8 py-16" style={{ marginTop: '80px' }}>
         <div className="text-center mb-16">
           <h1 className="text-5xl font-serif font-bold mb-6" style={{ color: '#d5ae5d' }}>
             강원도 전업종 마케팅 전문
@@ -337,14 +337,17 @@ export default function Services() {
               <div 
                 key={index} 
                 className={`bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 p-6 border-2 relative ${
-                  pkg.popular ? 'border-gold transform scale-105' : 'border-gray-100'
+                  pkg.popular ? 'border-gold' : 'border-gray-100'
                 }`}
               >
                 {pkg.popular && (
-                  <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                    <span className="bg-gold text-black px-6 py-2 rounded-full text-sm font-bold">
-                      인기 패키지
-                    </span>
+                  <div className="absolute -top-2 -right-2 transform rotate-12">
+                    <div className="bg-yellow-300 text-black px-3 py-1 text-xs font-bold shadow-md relative"
+                         style={{
+                           clipPath: 'polygon(0 0, 85% 0, 100% 50%, 85% 100%, 0 100%)'
+                         }}>
+                      <span>인기 패키지</span>
+                    </div>
                   </div>
                 )}
                 
