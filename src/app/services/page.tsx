@@ -371,11 +371,7 @@ export default function Services() {
                 </ul>
 
                 <button 
-                  className={`w-full py-3 rounded-full font-bold transition-all duration-300 ${
-                    pkg.popular 
-                      ? 'bg-gold text-black hover:bg-gold/90' 
-                      : 'border-2 border-gold text-gold hover:bg-gold hover:text-black'
-                  }`}
+                  className="w-full py-3 rounded-full font-bold transition-all duration-300 border-2 border-gold text-gold hover:bg-gold hover:text-black"
                 >
                   패키지 선택
                 </button>
